@@ -57,15 +57,9 @@ Vparallelepiped=|a.(bxc)|
 What should be written instead of line 1 to get correct Volume of the parallelepiped?
 
 
-ans=dot(a, cross(b, c))
-ans=a.dot(b.cross(c)); correct
-ans=a.cross(b.dot(c));
-ans=a.dot(b, cross(c));
+ans=a.dot(b.cross(c));
+
 
 What is the volume of the given parallelepiped?
 
-
-15
 30
-30 correct
-60
